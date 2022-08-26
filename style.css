@@ -1,0 +1,71 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Josefin Sans', sans-serif;
+}
+body{
+    background-color: #F3EED9;
+}
+h1{
+    color: #222C2A;
+    font-weight: 700;
+}
+.container p{
+    margin: 1em 0;
+}
+header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 2em;
+}
+img{
+    padding: 2em 0;
+    margin: auto;
+    max-width: 100%;
+}
+.messages{
+    background-color: #824936;
+    color: #FFFFFF;
+    padding: 2em;
+    display: flex;
+}
+.container{
+    max-width: 1128px;
+    margin: auto;
+}
+.uti-msg, .ame-msg, .h-msg{
+    color: hsl(223, 64%, 98%);
+    margin: 1em 0;
+    font-weight: 500;
+    line-height: 1.3;
+    display: none;
+}
+span{
+    float: right;
+    font-style: italic;
+    font-weight: 300;
+}
+button{
+    clear: right;
+    background-color: #222C2A;
+    color: hsl(223, 64%, 98%);
+    font-weight: 700;
+    width: fit-content;
+    border: none;
+    border-radius: 50px;
+    padding: 1em;
+    cursor: pointer;
+}
+
+.last{
+    padding: 2em;
+}
+.img-div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+h3{
+    color: #222C2A;
+}
